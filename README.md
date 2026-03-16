@@ -68,12 +68,12 @@ Before you begin, ensure you have the following installed:
 
 ### Backend Setup (FastAPI + Python)
 
-**Located at:** `E:\Onecodelabs_asssignments\3d_fashion_new\avatar\backend`
+**Located at:** `E:\3d_fashion_new\avatar\backend`
 
 #### 1. Navigate to Backend
 
 ```bash
-cd E:\Onecodelabs_asssignments\3d_fashion_new\avatar\backend
+cd E:\3d_fashion_new\avatar\backend
 ```
 
 #### 2. Create and Activate Conda Environment
@@ -170,7 +170,7 @@ Expected response:
   "status": "healthy",
   "model": "SMPL-X",
   "garment_template": true,
-  "garment_path": "E:\\Onecodelabs_asssignments\\3d_fashion_new\\avatar\\backend\\models\\garments"
+  "garment_path": "E:\\3d_fashion_new\\avatar\\backend\\models\\garments"
 }
 ```
 
@@ -178,12 +178,12 @@ Expected response:
 
 ### Frontend Setup (React + TypeScript)
 
-**Located at:** `E:\Onecodelabs_asssignments\3d_fashion_new\avatar\frontend`
+**Located at:** `E:\3d_fashion_new\avatar\frontend`
 
 #### 1. Navigate to Frontend
 
 ```bash
-cd E:\Onecodelabs_asssignments\3d_fashion_new\avatar\frontend
+cd E:\3d_fashion_new\avatar\frontend
 ```
 
 #### 2. Install Node.js Dependencies
@@ -219,12 +219,12 @@ The frontend will start at: **http://localhost:5173**
 
 ## 🤖 Tripo AI Garment Generator
 
-**Located at:** `E:\Onecodelabs_asssignments\3d_fashion_new\tripo-ai-generator`
+**Located at:** `E:\3d_fashion_new\tripo-ai-generator`
 
 #### 1. Navigate to the Application
 
 ```bash
-cd E:\Onecodelabs_asssignments\3d_fashion_new\tripo-ai-generator
+cd E:\3d_fashion_new\tripo-ai-generator
 ```
 
 #### 2. Install Node.js Dependencies
@@ -273,8 +273,8 @@ The application will start at: **http://localhost:3000**
 After generating garments, copy them to the avatar garments folder:
 
 ```bash
-cp -r "E:\Onecodelabs_asssignments\3d_fashion_new\tripo-ai-generator\downloads\*.glb" ^
-      "E:\Onecodelabs_asssignments\3d_fashion_new\avatar\backend\models\garments\"
+cp -r "E:\3d_fashion_new\tripo-ai-generator\downloads\*.glb" ^
+      "E:\3d_fashion_new\avatar\backend\models\garments\"
 ```
 
 ---
@@ -344,12 +344,12 @@ cd E:\Onecodelabs_asssignments\3d_fashion_new\tripo-ai-generator
 npm run dev
 
 # Terminal 2 — Avatar Backend (Port 8000)
-cd E:\Onecodelabs_asssignments\3d_fashion_new\avatar\backend
+cd E:\3d_fashion_new\avatar\backend
 conda activate tf_env
 python run.py
 
 # Terminal 3 — Avatar Frontend (Port 5173)
-cd E:\Onecodelabs_asssignments\3d_fashion_new\avatar\frontend
+cd E:\3d_fashion_new\avatar\frontend
 npm run dev
 ```
 
