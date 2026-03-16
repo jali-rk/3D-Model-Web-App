@@ -1,0 +1,8 @@
+# Remove PyCharm files
+.idea/
+*.iml
+
+# Remove models directory (correct path)
+models/
+
+__pycache__/

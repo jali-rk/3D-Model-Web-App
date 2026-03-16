@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    font-family:Arial;
+  }
+  
+  .container{
+    padding:20px;
+  }
+  
+  .form{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+  }
+  
+  input{
+    padding:6px;
+  }
+  
+  button{
+    padding:8px 15px;
+    background:#222;
+    color:white;
+    border:none;
+  }
